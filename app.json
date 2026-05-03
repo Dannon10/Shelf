@@ -4,10 +4,8 @@
     "slug": "shelf",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0F0F0F"
     },
@@ -21,7 +19,6 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0F0F0F"
       },
       "permissions": [
@@ -32,7 +29,6 @@
       "package": "com.shelf.app"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-image-picker",
         {
@@ -42,7 +38,6 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/notification-icon.png",
           "color": "#FF6B35"
         }
       ]
